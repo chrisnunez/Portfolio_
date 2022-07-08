@@ -1,8 +1,5 @@
 
-.about {
-  width: 100%;  
-  height:100%;
-}
+
 
 body {
     background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
@@ -38,3 +35,14 @@ a {
     padding-right: 30px;
 }
 
+@media (min-width: 390px) {
+    #mainText {
+      font-size: 12rem;
+    }
+  }
+  
+  @media (max-width: 1000px) {
+    #mainText {
+      font-size: 4rem;
+    }
+  }
